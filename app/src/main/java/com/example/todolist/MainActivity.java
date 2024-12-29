@@ -19,7 +19,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-//    1:06:20
+
 
     Button add;
     AlertDialog dialog;
@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
                 dialog.show();
             }
         });
-
 
     }
 
@@ -66,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
 
-        builder.create();
+        dialog=builder.create();
     }
 
     private void addCard(String name){
